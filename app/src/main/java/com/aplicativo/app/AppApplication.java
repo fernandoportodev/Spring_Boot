@@ -11,12 +11,12 @@ public class AppApplication {
 
 	@GetMapping ("/rota1")
 	public String atividade1(){
-		return "Hello World";
+		return "Mentalidades e Habilidades utilizadas: Persistência, orientação ao detalhe";
 	}
 
 	@GetMapping ("/rota2")
 	public String atividade2(){
-		return "Hello World 2";
+		return "Aprender ao máximo sobre Spring Boot e como funciona cada função, parâmetro, etc.";
 	}
 
 	public static void main(String[] args) {
